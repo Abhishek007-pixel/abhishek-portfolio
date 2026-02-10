@@ -118,7 +118,7 @@ export default function Home() {
             <button onMouseMove={handleGlowMove} onClick={() => setContactOpen(true)} className="px-8 py-4 bg-surface border border-white/10 text-white rounded-full font-bold transition-all hover-glow">
               Contact Me
             </button>
-            <a href="https://drive.google.com/file/d/1-c3vMPpaQpZznQMxgEoVUXQ7gxQUi7s8/view?usp=sharing" target="_blank" rel="noreferrer" onMouseMove={handleGlowMove} className="px-8 py-4 bg-white/10 border border-white/10 text-white rounded-full font-bold transition-all hover-glow">
+            <a href="/AbhishekCV.pdf" target="_blank" rel="noopener noreferrer" onMouseMove={handleGlowMove} className="px-8 py-4 bg-white/10 border border-white/10 text-white rounded-full font-bold transition-all hover-glow">
               View Resume
             </a>
           </div>
@@ -225,6 +225,22 @@ export default function Home() {
         <div>
           <h2 className="text-3xl font-bold mb-8 flex items-center"><ChevronDown className="mr-2"/> Experience</h2>
           <div className="space-y-6">
+            <div className="p-6 bg-surface rounded-2xl border border-white/5">
+              <div className="flex justify-between items-start mb-4">
+                <div>
+                  <h3 className="text-xl font-bold text-white">Engineering Intern</h3>
+                  <p className="text-primary text-sm font-semibold">SKOOLLAGE EDTECH</p>
+                </div>
+                <span className="text-xs text-textMuted bg-white/5 px-2 py-1 rounded">2025</span>
+              </div>
+              <ul className="text-textMuted text-sm leading-relaxed list-disc list-inside space-y-1">
+                <li>Supported development of interactive, skill-based learning modules using React.js and Node.js.</li>
+                <li>Worked on backend RESTful APIs and basic database operations for student, course, and mentorship management.</li>
+                <li>Assisted in implementing a Retrieval-Augmented Generation (RAG) based content retrieval system to reduce response latency and improve answer relevance.</li>
+                <li>Collaborated with cross-functional teams to align technical features with student learning outcomes and platform goals.</li>
+              </ul>
+            </div>
+
             <div className="p-6 bg-surface rounded-2xl border border-white/5">
               <div className="flex justify-between items-start mb-4">
                 <div>

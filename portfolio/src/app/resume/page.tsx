@@ -72,6 +72,20 @@ export default function ResumePage() {
             <Briefcase className="w-5 h-5 text-accent" />
             <h2 className="text-2xl font-bold">Experience</h2>
           </div>
+          <motion.div initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="p-6 bg-surface rounded-2xl border border-white/10 tilt mb-4">
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="font-semibold">Engineering Intern — Skoollage EdTech, Remote</h3>
+                <p className="text-textMuted text-sm">May 2025 – July 2025</p>
+              </div>
+            </div>
+            <ul className="mt-3 space-y-2 text-sm text-textMuted list-disc list-inside">
+              <li>Supported development of interactive, skill-based learning modules using React.js and Node.js.</li>
+              <li>Worked on backend RESTful APIs and basic database operations for student, course, and mentorship management.</li>
+              <li>Assisted in implementing a Retrieval-Augmented Generation (RAG) based content retrieval system to reduce response latency and improve answer relevance.</li>
+              <li>Collaborated with cross-functional teams to align technical features with student learning outcomes and platform goals.</li>
+            </ul>
+          </motion.div>
           <motion.div initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="p-6 bg-surface rounded-2xl border border-white/10 tilt">
             <div className="flex items-center justify-between">
               <div>
